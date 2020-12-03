@@ -15,18 +15,15 @@ namespace POO
             Console.WriteLine("-------------");
             
             Console.WriteLine($"Digite o modelo do celular: ");
-            celular1.modelo = Console.ReadLine();
+            celular1.tamanho = Console.ReadLine();
 
             Console.WriteLine("Digite o tamanho do celular, digite apenas númeras: ");
-            strincelular1.tamanho = Console.ReadLine();
+            celular1.tamanho = Console.ReadLine();
 
             Console.WriteLine("Informe a cor do celular: ");
             celular1.cor = Console.ReadLine();
 
             Console.WriteLine("Selecione uma opção: L - Ligar, D - Desligar");
-            celular1.ligado = Console.ReadLine();
-            
-            Console.WriteLine("Ligue o celular");
             celular1.ligado = Console.ReadLine();
 
            while(celular1.ligado != "L"){
