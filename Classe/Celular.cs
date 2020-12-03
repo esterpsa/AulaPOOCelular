@@ -4,7 +4,7 @@ namespace POO.Classe
     {
         public string modelo;
 
-        public int tamanho; 
+        public string tamanho; 
 
         public string cor;
 

@@ -18,7 +18,7 @@ namespace POO
             celular1.modelo = Console.ReadLine();
 
             Console.WriteLine("Digite o tamanho do celular, digite apenas númeras: ");
-            celular1.tamanho = int.Parse(Console.ReadLine());
+            strincelular1.tamanho = Console.ReadLine();
 
             Console.WriteLine("Informe a cor do celular: ");
             celular1.cor = Console.ReadLine();
